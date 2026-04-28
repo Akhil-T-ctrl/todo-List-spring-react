@@ -1,0 +1,78 @@
+.task-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 7px;
+    margin-bottom: 10px;
+}
+
+.input-task-bar,.input-description-bar{
+    padding: 12px 16px;
+    font-size: 1rem;
+    border: 1px solid #d1d5db; /* Soft gray border */
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: all 0.2s ease;
+    outline: none; /* Hide default browser ring */
+}
+
+.task-status-checkbox{
+    display: flex;
+    border: solid;
+    border: 1px solid #d1d5db; /* Soft gray border */
+    border-radius: 8px;
+    padding: 11px 12px;
+}
+
+.task-status-checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between text and box */
+  cursor: pointer;
+  width: fit-content;
+}
+
+/* 1. Make the text bigger and move it to the left */
+.task-status-checkbox label span {
+  font-family: sans-serif;
+  font-size: 1.2rem; /* Bigger text */
+  order: 1; /* Visual position: first */
+}
+
+/* 2. Make the ACTUAL inbuilt checkbox bigger */
+.task-status-checkbox input[type="checkbox"] {
+  cursor: pointer;
+  /* This scales the default browser checkbox */
+  transform: scale(1.6); 
+  order: 2; /* Visual position: second (right side) */
+  
+  /* Reset margins that browsers sometimes add */
+  margin: 0; 
+}
+
+.add-button{
+    padding: 10px 24px; 
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+    /* Modern "Blue-Black" Palette */
+    background-color: #06256e; 
+    color: #ffffff;
+    
+    /* Matching the border-radius of the other elements */
+    border: none;
+    border-radius: 8px;
+    
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+    /* Ensure it sits perfectly in line with the inputs */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px; /* Adjust this to exactly match your text box height */
+}
+
+
+

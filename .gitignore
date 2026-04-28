@@ -1,0 +1,22 @@
+# --- IDE & System Junk ---
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# --- Java / Backend ---
+**/target/
+**/build/
+*.jar
+*.war
+
+# --- JavaScript / Frontend ---
+**/node_modules/
+**/dist/
+
+# --- Secrets & Environment ---
+.env
+.env.local
+.env.development.local
+backend/src/main/resources/application-local.properties

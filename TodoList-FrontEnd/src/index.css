@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* 2. Center the root container */
+body {
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: flex-start;     /* Vertical center */
+}
+

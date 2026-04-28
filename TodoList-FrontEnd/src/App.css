@@ -1,0 +1,19 @@
+.task-input-section{
+  display: flex;
+  justify-content: center;
+}
+
+.title-text{
+  font-size: 35px;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border-bottom: 3px solid gray;
+  padding-bottom: 7px;
+}
+
+.app-container{
+  display: grid;
+  place-items: center; /* Centers horizontally and vertically */
+}
+
