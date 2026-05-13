@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("api/tasks")
 @AllArgsConstructor
-@CrossOrigin(origins="https://todo-list-app-akhil.netlify.app")
+@CrossOrigin(origins="http://localhost:5173")
 public class TodoController {
 
     private TodoService todoService;
