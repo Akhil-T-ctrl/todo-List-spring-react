@@ -3,6 +3,7 @@
 
 🚀 Live Demo
 - **Link to the todoList app - https://todo-list-app-akhil.netlify.app
+- ** Please give some time ( 30 to 60 seconds ) after clicking the link as it takes time to fire up backend when hosted on free service 
 
 🛠️ Tech Stack
 - Backend
